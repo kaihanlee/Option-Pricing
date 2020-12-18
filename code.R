@@ -7,7 +7,7 @@
 set.seed(3031)
 ##################################################
 rm(list = ls())    # delete everything from the work space
-source("F70CF.R")  # load functions for implicit FD
+source("FDF.R")  # load functions for implicit FD
 ####  some constants  ############################
 K = 1             # strike price
 T = 2.5           # time (in years) to maturity
